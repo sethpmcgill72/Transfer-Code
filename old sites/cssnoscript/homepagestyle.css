@@ -1,0 +1,64 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(177, 188, 201);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#header{
+    background-color: #080000;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#header a{
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+#header a:hover{
+    background-color: rgb(68, 58, 58);
+    color: #e0d6d6;
+}
+
+#welcomeUpper{
+    padding-top: 7.5%;
+    padding-bottom: 12.5%;
+    margin-bottom: 0%;
+    text-align: center;
+    background-color: #e60909;
+    border: solid #e60909;
+    border-top-color: black;
+    border-bottom-color: black;
+    border-width: 3px;
+}
+
+#welcomeLower{
+    font-size: 16px;
+    padding-left: 2.5%;
+}
+
+#welcomeUpper h1{
+    font-size: 30px;
+}
+
+#welcomeLower h2{
+    /*NEGATIVE SIZES ARE ALLOWED, AND DO NOT PREVENT CSS
+    FROM BEING APPLIED. THIS IS A MASSIVE DISCOVERY.*/
+    margin-top: 10px;
+}
+
+#welcomeLower p{
+    padding-right: 37.5%;
+}
+
+#footer{
+    border: solid rgb(177, 188, 201);
+    border-top-color: black;
+    background-color: rgb(154, 169, 185);
+    margin-top: 2.5%;
+    padding-bottom: 3%;
+}

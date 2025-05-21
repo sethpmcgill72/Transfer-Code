@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(17, 14, 14);
+}
+
+button{
+    background-color: green;
+    border: 0px; 
+    color: white;
+    font-weight: bold;
+
+}
+
+#click button{
+    background-color:lightslategrey;
+    width: 50%;
+    height: 600px;
+    font-size: 20px;
+    margin: 10px;
+    margin-right: 20%;
+    margin-left: 20%
+}
